@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility.Tests", "NetworkUtility.Tests\NetworkUtility.Tests.csproj", "{E50FBBA7-1B65-415E-A5D4-281B7FC744C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility", "NetworkUtility\NetworkUtility.csproj", "{3C70F73B-D9F9-4841-AB30-0F21F13F5149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E50FBBA7-1B65-415E-A5D4-281B7FC744C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50FBBA7-1B65-415E-A5D4-281B7FC744C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50FBBA7-1B65-415E-A5D4-281B7FC744C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50FBBA7-1B65-415E-A5D4-281B7FC744C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C70F73B-D9F9-4841-AB30-0F21F13F5149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C70F73B-D9F9-4841-AB30-0F21F13F5149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C70F73B-D9F9-4841-AB30-0F21F13F5149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C70F73B-D9F9-4841-AB30-0F21F13F5149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0E98CD1-BB90-496B-B617-5EF52C1B82FA}
+	EndGlobalSection
+EndGlobal

@@ -29,5 +29,23 @@ namespace NetworkUtility.Tests.PingTest
 
 
 		}
+
+		[Theory]
+		[InlineData(1,2,3)]
+		[InlineData(2,3,5)]
+		[InlineData(3,4,7)]
+		public void NetworkService_PingTimeout_ReturnInt(int value1, int value2, int output)
+		{
+			var pingServices = new NetworkService();
+
+			var result = pingServices.PingTimeout(value1, value2);
+
+			result.Should().Be(output);
+			result.Should().BeGreaterThanOrEqualTo(3);
+			result.Should().NotBeInRange(-1, 0);
+
+		}
+
+
 	}
 }
